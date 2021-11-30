@@ -1,0 +1,445 @@
+/* font-family: 'Overpass', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+body {
+  width: 1440px;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "Overpass", sans-serif;
+  color: hsl(208, 49%, 24%);
+}
+
+section,
+div,
+ul {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+/* top section */
+.top {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background-color: pink;
+  overflow: hidden;
+  background-image: linear-gradient(
+    to right,
+    hsl(13, 100%, 72%),
+    hsl(353, 100%, 62%)
+  );
+  border-bottom-left-radius: 100px;
+  padding: 50px 165px;
+}
+.top img {
+  position: absolute;
+  left: -500px;
+  top: -1350px;
+  z-index: 1;
+}
+
+.top .logo {
+  position: absolute;
+  top: 50px;
+  left: 165px;
+  z-index: 2;
+}
+
+.nav-bar {
+  position: absolute;
+  top: 60px;
+  left: 325px;
+  font-family: "Ubuntu", sans-serif;
+  color: #fff;
+  z-index: 2;
+}
+
+/* .nav-item {
+  position: absolute;
+  display: inline-block;
+  z-index: 2;
+  margin-right: 30px;
+} */
+
+.nav-company {
+  position: absolute;
+  top: 0px;
+  left: 120px;
+  display: inline-block;
+  width: 200px;
+}
+
+.nav-product {
+  position: absolute;
+  display: inline-block;
+  top: 0px;
+  left: 240px;
+  width: 200px;
+}
+
+.nav-contact {
+  position: absolute;
+  display: inline-block;
+  top: 0px;
+  left: 340px;
+  width: 200px;
+}
+
+.dropdown {
+  margin-left: 10px;
+  font-size: 10px;
+  vertical-align: middle;
+}
+
+.dropup {
+  position: relative;
+  left: -9px;
+  font-size: 10px;
+}
+.down-list1 {
+  position: relative;
+  left: -30px;
+  width: 170px;
+  height: 190px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 25px;
+  padding: 35px 25px;
+}
+.down-list2 {
+  position: relative;
+  left: -30px;
+  width: 170px;
+  height: 230px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 25px;
+  padding: 35px 25px;
+}
+
+.down-list3 {
+  position: relative;
+  left: -30px;
+  width: 170px;
+  height: 150px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 25px;
+  padding: 35px 25px;
+}
+
+.down-list-item {
+  margin-bottom: 20px;
+}
+
+.down-list-item a {
+  color: black;
+}
+
+.down-list-item a:hover {
+  font-weight: 500;
+}
+
+.title {
+  position: absolute;
+  top: 235px;
+  left: 320px;
+  font-family: "Overpass", sans-serif;
+  font-size: 65px;
+  font-weight: 600;
+  color: #fff;
+  margin: 0;
+  z-index: 1;
+}
+
+.account {
+  position: absolute;
+  top: 55px;
+  right: 160px;
+  /* right: 0; */
+  font-family: "Ubuntu", sans-serif;
+  z-index: 2;
+}
+
+.account a {
+  color: #fff;
+}
+
+.login,
+.sign-up {
+  display: inline-block;
+  width: 135px;
+  height: 50px;
+  border-radius: 25px;
+  line-height: 50px;
+  text-align: center;
+}
+.login:hover,
+.sign-up:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.description {
+  position: absolute;
+  top: 320px;
+  left: 530px;
+  font-family: "Overpass", sans-serif;
+  color: #fff;
+  letter-spacing: 1px;
+  z-index: 2;
+}
+
+.info {
+  position: absolute;
+  top: 400px;
+  left: 575px;
+  font-family: "Ubuntu", sans-serif;
+  z-index: 2;
+}
+
+.free,
+.more {
+  display: inline-block;
+  width: 135px;
+  height: 50px;
+  font-weight: 500;
+  border-radius: 25px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.free {
+  background-color: #fff;
+  margin-right: 15px;
+}
+
+.free a {
+  color: hsl(353, 100%, 62%);
+}
+
+.free:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.free:hover a {
+  color: #fff;
+}
+
+.more {
+  color: hsl(13, 100%, 72%);
+  border: 1px solid #fff;
+}
+
+.more a {
+  color: #fff;
+}
+
+.more:hover {
+  background-color: #fff;
+}
+
+.more:hover a {
+  color: hsl(353, 100%, 62%);
+}
+
+/* Middle-top */
+.middle-top {
+  position: relative;
+  height: 1000px;
+  width: 1440px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.bg-editor-desktop {
+  position: absolute;
+  top: 70px;
+  left: 830px;
+  height: 885px;
+}
+
+.subtitle-big {
+  position: absolute;
+  top: 100px;
+  left: 530px;
+  color: hsl(208, 49%, 24%);
+  font-size: 40px;
+}
+
+.para-1 {
+  position: absolute;
+  top: 280px;
+  left: 165px;
+  width: 540px;
+  height: 200px;
+}
+
+.para-2 {
+  position: absolute;
+  top: 580px;
+  left: 165px;
+  width: 540px;
+  height: 200px;
+}
+
+.para-title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.para-text {
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  color: hsl(207, 13%, 34%);
+  opacity: 0.8;
+}
+
+/* middle-middle */
+.middle-middle {
+  position: relative;
+  width: 1440px;
+  height: 400px;
+  background-image: linear-gradient(
+    to right,
+    hsl(237, 17%, 21%),
+    hsl(237, 23%, 32%)
+  );
+  border-bottom-left-radius: 100px;
+  border-top-right-radius: 100px;
+}
+.bg-div {
+  position: relative;
+  width: 1440px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.bg-pattern-circles {
+  position: absolute;
+  left: -215px;
+  top: -500px;
+}
+
+.bg-phones {
+  position: absolute;
+  top: -65px;
+  left: 160px;
+}
+
+.para-3 {
+  position: absolute;
+  top: 120px;
+  right: 180px;
+  color: #fff;
+  width: 530px;
+  height: 180px;
+}
+
+.subtitle-next {
+  margin: 0;
+  font-size: 38px;
+}
+
+.para-colorw {
+  color: #fff;
+  opacity: 0.8;
+}
+
+/* middle-bottom */
+.middle-bottom {
+  position: relative;
+  width: 1440px;
+  height: 1025px;
+}
+
+.bg-laptop {
+  position: absolute;
+  top: 115px;
+  left: -300px;
+}
+
+.middle-bottom .para-right {
+  position: absolute;
+  left: 730px;
+}
+/* footer */
+footer {
+  position: relative;
+  width: 1440px;
+  height: 400px;
+  background-color: hsl(240, 10%, 16%);
+  border-top-right-radius: 100px;
+  padding-top: 70px;
+  padding-left: 165px;
+  box-sizing: border-box;
+}
+
+footer dl {
+  position: absolute;
+  top: 80px;
+  font-family: "Ubuntu", sans-serif;
+  display: absolute;
+  color: #fff;
+}
+footer dt {
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+footer dd {
+  font-weight: 300;
+  margin-left: 0;
+  opacity: 0.8;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+footer dd:hover {
+  text-decoration: underline;
+}
+
+.mod-product {
+  left: 450px;
+}
+
+.mod-company {
+  left: 735px;
+}
+
+.mod-connect {
+  left: 1020px;
+}
+
+.attribution {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-250px);
+  width: 500px;
+  text-align: center;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+}
+
+.attribution a {
+  text-decoration: underline;
+  color: hsl(353, 100%, 62%);
+}
+
+.hidden {
+  display: none;
+}
+
+.hidden-inline {
+  visibility: hidden;
+}
